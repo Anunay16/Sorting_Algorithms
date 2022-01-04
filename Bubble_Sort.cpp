@@ -13,6 +13,14 @@ void bubbleSort(vector<int>& arr) {
             }
         }
     }
+    
+    /*
+        best case: O(N) -> array already sorted
+        avg case: O(N ^ 2)
+        worst case: O(N ^ 2) -> array reverse sorted
+        space: O(1)
+        STABLE: yes
+    */
 }
 
 void solve() {
