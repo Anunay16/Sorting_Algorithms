@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//time complexity: O(NlogN)
+//best, avg & worst case time complexity: O(NlogN)
+//space: O(1)
+//STABLE: NO
+
 void heapify(vector<int>& arr, int i, int n) {
     int left = 2 * i + 1;
     int right = 2 * i + 2;
